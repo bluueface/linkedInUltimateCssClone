@@ -6,6 +6,7 @@
     padding-left: 80px;
     padding-right: 80px;
     color: #666666;
+    border-bottom: 1px solid #e6e3e3;
 
 }
 
@@ -50,7 +51,6 @@
 }
 
 .right-side {
-    /* background-color: red; */
     display: flex;
     gap: 2px;
     width: 60%;
@@ -64,8 +64,6 @@
     align-items: center;
     width: 80px;
     gap: 5px;
-
-    /* background-color: purple; */
 }
 
 .icon-label label {
@@ -79,7 +77,7 @@
 }
 
 .border-right {
-    border-right: 1px solid #666666;
+    border-right: 1px solid #e6e3e3;
 }
 
 .extra{

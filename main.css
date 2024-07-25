@@ -5,9 +5,8 @@
     "left center center center center right";
   gap: 20px;
   grid-template-rows: 53px 1fr 70px;
-  background-color: black;
+  background-color: #F4F2EE;
   height: 100vh;
-  padding: 5px;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
