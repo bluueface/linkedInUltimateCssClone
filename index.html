@@ -4,14 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="center.css" />
   </head>
 
   <body>
     <div class="grid-container">
       <div class="item1">Header</div>
-      <div class="item2">Menu</div>
-      <div class="item3">Main</div>
+      <div class="item2">Left</div>
+      <div class="center">
+        <div class="container">
+          <div class="startAPost">
+            <img src="/linkedinProfile.jpeg" alt="Avatar" />
+            <input placeholder="Start a post, try writing with AI" />
+          </div>
+          <div class="uploadResourcesToAPostNavs">
+            <div>
+              <i class="fa fa-image fa-xs" style="color: #378fe9"></i>
+              <label>Media</label>
+            </div>
+            <div>
+              <i
+                class="fa-brands fa-rocketchat fa-xs"
+                style="color: #c37d16"
+              ></i>
+              <label>Contribute expertise</label>
+            </div>
+            <div>
+              <i
+                class="fa-regular fa-newspaper fa-xs"
+                style="color: #e06847"
+              ></i>
+              <label>Write Article</label>
+            </div>
+          </div>
+        </div>
+        <hr class="solid" />
+        <div class="post">
+          <div class="postHeaderRow">
+            <div class="postDetail">
+              <img src="/linkedinProfile.jpeg" alt="Avatar" />
+              <div class="postTitleAndUserName">
+                <label>All About HTML and CSS.</label>
+                <div class="username">James bond . 3rd+</div>
+              </div>
+            </div>
+            <i
+              class="fa fa-close fa-xs"
+              style="color: black; padding: 10px; margin: 10px"
+            ></i>
+          </div>
+          <div class="postContent">
+            <div class="postDetail">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              beatae labore accusamus nisi omnis eaque, laboriosam inventore aut
+              facilis, illum nam. Incidunt repudiandae sint nisi sed quod
+              officia suscipit recusandae!
+            </div>
+            <img class="postImage" src="/html-and-css.png" alt="Image here" />
+          </div>
+          <div class="likeAndComment">
+            <i class="fa fa-comment fa-xs" style="color: #c37d16"></i>
+            <i class="fa fa-comment fa-xs" style="color: #c37d16"></i>
+            <i class="fa fa-comment fa-xs" style="color: #c37d16"></i>
+          </div>
+        </div>
+      </div>
       <div class="item4">Right</div>
     </div>
   </body>

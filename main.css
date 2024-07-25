@@ -5,28 +5,32 @@
     "left center center center center right";
   gap: 10px;
   grid-template-rows: 80px 1fr 70px;
-
-  background-color: black;
+  background-color: #f4f2ee;
   height: 100vh;
   padding: 10px;
+  color: rgba(1, 1, 0, 0.75);
+  font-size: 16px;
+  letter-spacing: normal;
+  line-height: 24px;
 }
 
 .grid-container > div {
-  background-color: red;
+  background-color: #ffffff;
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
-.item1 {
+.header-container {
   grid-area: header;
 }
-.item2 {
+.left-container {
   grid-area: left;
 }
-.item3 {
+.center-container {
   grid-area: center;
+  background-color: #f4f2ee !important;
 }
-.item4 {
+.right-container {
   grid-area: right;
 }

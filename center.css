@@ -1,0 +1,112 @@
+
+.container {
+  box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
+  border-radius: 8px;
+  padding: 0px 0px 10px 10x;
+  height: 110px;
+  margin: 0px 10px 0px 10px;
+  background-color: white;
+}
+.post {
+  box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
+  border-radius: 8px;
+  padding: 10px 10px 10px 10x;
+  height: 60vh;
+  margin: 0px 10px 0px 10px;
+  background-color: white;
+  .postHeaderRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .postContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+
+    .postDetail {
+      align-self: start;
+      font-size: 15px;
+      padding: 5px;
+      margin: 5px;
+    }
+    .postImage {
+      border-radius: 20px;
+      height: 40vh;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    height: 50px;
+  }
+  .postDetail {
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+
+    .postTitleAndUserName {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      flex-wrap: wrap;
+      label {
+        padding: 0px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .username {
+        font-size: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+  .likeAndComment{
+    padding:10px
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+
+  }
+}
+
+.startAPost {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  gap: 12px;
+  img {
+    border-radius: 50%;
+    height: 50px;
+  }
+  input {
+    background-color: #f4f2ee;
+    border-radius: 35px;
+    width: 90%;
+    border: gray solid 1px;
+  }
+  ::placeholder {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 17px;
+  }
+}
+
+.uploadResourcesToAPostNavs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+  gap: 12px;
+  label {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+}
