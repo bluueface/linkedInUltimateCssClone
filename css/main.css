@@ -3,22 +3,11 @@
   grid-template-areas:
     "header header header header header header"
     "left center center center center right";
-  gap: 10px;
-  grid-template-rows: 80px 1fr 70px;
+  gap: 20px;
+  grid-template-rows: 53px 1fr 70px;
   background-color: #f4f2ee;
   height: 100vh;
-  padding: 10px;
-  color: rgba(1, 1, 0, 0.75);
-  font-size: 16px;
-  letter-spacing: normal;
-  line-height: 24px;
-}
-
-.grid-container > div {
-  background-color: #ffffff;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .header-container {
@@ -29,7 +18,6 @@
 }
 .center-container {
   grid-area: center;
-  background-color: #f4f2ee !important;
 }
 .right-container {
   grid-area: right;

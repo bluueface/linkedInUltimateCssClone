@@ -11,18 +11,74 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="center.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/center.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/left.css" />
+    <link rel="stylesheet" type="text/css" href="css/right.css" />
   </head>
 
   <body>
     <div class="grid-container">
-      <div class="item1">Header</div>
-      <div class="item2">Left</div>
-      <div class="center">
+      <div class="header-container">
+        <div class="left-side">
+          <img src="images\linkedin.png" class="logo" />
+          <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input class="search-input" placeholder="Search" />
+          </div>
+        </div>
+
+        <div class="right-side">
+          <div class="icon-label">
+            <i class="fa-solid fa-house-chimney"></i>
+            <label>Home</label>
+          </div>
+          <div class="icon-label">
+            <i class="fa-solid fa-user-group"></i>
+            <label>My Network</label>
+          </div>
+          <div class="icon-label">
+            <i class="fa-solid fa-briefcase"></i>
+            <label>Jobs</label>
+          </div>
+          <div class="icon-label">
+            <i class="fa-solid fa-comment-dots"></i>
+            <label>Messaging</label>
+          </div>
+          <div class="icon-label">
+            <i class="fa-solid fa-bell"></i>
+            <label>Notifications</label>
+          </div>
+          <div class="icon-label border-right">
+            <img src="images\avatar.png" class="avatar" />
+            <label>Me <i class="fa-solid fa-caret-down"></i></label>
+          </div>
+          <div class="icon-label extra">
+            <i class="fa-solid fa-table-cells"></i>
+            <label>For Business <i class="fa-solid fa-caret-down"></i></label>
+          </div>
+          <div class="icon-label">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <label>Post a Job</label>
+          </div>
+        </div>
+      </div>
+      <div class="left-container">
+        <div>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+          voluptatem consectetur maiores eveniet, quo qui, eius officiis
+          inventore magni facere commodi, quibusdam molestias ea id! Magnam
+          nihil ea totam architecto. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Dicta id error facilis, sequi distinctio blanditiis.
+          Modi suscipit, aspernatur incidunt expedita ad, cumque minima quam
+          odio dicta sed nam animi doloribus.
+        </div>
+      </div>
+      <div class="center-container">
         <div class="container">
           <div class="startAPost">
-            <img src="/linkedinProfile.jpeg" alt="Avatar" />
+            <img src="images/avatar.png" alt="Avatar" />
             <input placeholder="Start a post, try writing with AI" />
           </div>
           <div class="uploadResourcesToAPostNavs">
@@ -50,7 +106,7 @@
         <div class="post">
           <div class="postHeaderRow">
             <div class="postDetail">
-              <img src="/linkedinProfile.jpeg" alt="Avatar" />
+              <img src="images/avatar.png" alt="Avatar" />
               <div class="postTitleAndUserName">
                 <label>All About HTML and CSS.</label>
                 <div class="username">James bond . 3rd+</div>
@@ -68,7 +124,11 @@
               facilis, illum nam. Incidunt repudiandae sint nisi sed quod
               officia suscipit recusandae!
             </div>
-            <img class="postImage" src="/html-and-css.png" alt="Image here" />
+            <img
+              class="postImage"
+              src="images/html-and-css.png"
+              alt="Image here"
+            />
           </div>
           <div class="likeAndComment">
             <i class="fa fa-comment fa-xs" style="color: #c37d16"></i>
@@ -77,7 +137,14 @@
           </div>
         </div>
       </div>
-      <div class="item4">Right</div>
+      <div class="right-container">
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ea
+          necessitatibus officiis voluptatum impedit, deserunt, corrupti eaque
+          et quidem voluptatibus praesentium perferendis. Corrupti impedit
+          tenetur delectus deleniti inventore eum nobis!
+        </div>
+      </div>
     </div>
   </body>
 </html>
