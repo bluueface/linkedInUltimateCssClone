@@ -1,8 +1,14 @@
 .left-container {
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
+    gap: 20px;
+
+}
+
+.first {
     background-color: #ffffff;
+    border: 1px solid #e6e3e3;
+    border-radius: 8px;
 }
 
 .profile {
@@ -10,9 +16,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    border: 1px solid #f4f2ee;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+
 }
 
 .profile img {
@@ -87,7 +91,7 @@
 }
 
 .pro label {
-   
+
     font-weight: 500;
 }
 
@@ -98,10 +102,27 @@
     font-weight: 600;
 }
 
-.saved{
+.saved {
     display: flex;
     gap: 10px;
     padding: 15px;
     color: #535252;
     font-size: 13px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e6e3e3;
+    border-radius: 8px;
+    padding: 15px;
+    color: #535252;
+    font-size: 13px;
+}
+
+.recent{
+    display: flex;
+    gap: 10px;
 }
