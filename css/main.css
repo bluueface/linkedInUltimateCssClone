@@ -13,12 +13,20 @@
 .header-container {
   grid-area: header;
 }
+
 .left-container {
   grid-area: left;
+  width: 40vh;
+  height: fit-content;
+  margin-left: 100px;
 }
+
 .center-container {
   grid-area: center;
 }
+
 .right-container {
   grid-area: right;
+  width: 40vh;
+  margin-right: 100px;
 }
