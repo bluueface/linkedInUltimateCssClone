@@ -7,12 +7,15 @@
     padding-right: 80px;
     color: #666666;
     border-bottom: 1px solid #e6e3e3;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 9px 100px;
 }
 
 .left-side {
     display: flex;
-    width: 40%;
+    width: 35%;
     gap: 10px;
 
 }
@@ -41,7 +44,7 @@
 
 .search-input {
     border: none;
-    background-color:transparent;
+    background-color: transparent;
     height: 100%;
     padding: 0 30px;
 }
@@ -52,8 +55,7 @@
 
 .right-side {
     display: flex;
-    gap: 2px;
-    width: 60%;
+    width: 65%;
     height: 100%;
 }
 
@@ -80,6 +82,6 @@
     border-right: 1px solid #e6e3e3;
 }
 
-.extra{
+.extra {
     width: 96px;
 }
