@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="main.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="header.css" />
+</head>
 
-  <body>
+<body>
     <div class="grid-container">
-      <div class="item1">Header</div>
-      <div class="item2">Menu</div>
-      <div class="item3">Main</div>
-      <div class="item4">Right</div>
+        <div class="header-container">
+            <div class="left-side">
+                <img src="images\linkedin.png" class="logo" />
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input class="search-input" placeholder="Search"/>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="icon-label">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <label>Home</label>
+                </div>
+                <div class="icon-label">
+                    <i class="fa-solid fa-user-group"></i>
+                    <label>My Network</label>
+                </div>
+                <div class="icon-label">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <label>Jobs</label>
+                </div>
+                <div class="icon-label">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <label>Messaging</label>
+                </div>
+                <div class="icon-label">
+                    <i class="fa-solid fa-bell"></i>
+                    <label>Notifications</label>
+                </div>
+                <div class="icon-label border-right">
+                    <img src="images\avatar.png" class="avatar">
+                    <label>Me <i class="fa-solid fa-caret-down"></i></label>
+                </div>
+                <div class="icon-label extra">
+                    <i class="fa-solid fa-table-cells"></i>
+                    <label>For Business <i class="fa-solid fa-caret-down"></i></label>
+                </div>
+                <div class="icon-label">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <label>Post a Job</label>
+                </div>
+                
+            </div>
+
+
+        </div>
+        <div class="left-container">Left</div>
+        <div class="center-container">Center</div>
+        <div class="right-container">Right</div>
     </div>
-  </body>
+</body>
+
 </html>
