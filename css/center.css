@@ -5,9 +5,6 @@
   height: fit-content;
   margin: 0px 10px 0px 10px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .post {
@@ -43,7 +40,7 @@
       height: 30vh;
       width: 100%;
 
-      object-fit:fill ;
+      object-fit: fill;
     }
   }
 
