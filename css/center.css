@@ -1,4 +1,3 @@
-
 .container {
   box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
   border-radius: 8px;
@@ -11,6 +10,7 @@
   box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
   border-radius: 8px;
   padding: 10px 10px 10px 10x;
+  margin-top: 10px;
   height: 60vh;
   margin: 0px 10px 0px 10px;
   background-color: white;
@@ -34,7 +34,7 @@
     .postImage {
       border-radius: 20px;
       height: 40vh;
-      width: 100%;
+
       object-fit: cover;
     }
   }
@@ -64,13 +64,11 @@
       }
     }
   }
-  .likeAndComment{
-    padding:10px
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    
-
+  .likeAndComment {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
