@@ -27,7 +27,7 @@
 
 .right-container {
   grid-area: right;
-  width: 38vh;
+  width: 40vh;
   height: fit-content;
   margin-right: 100px !important;
 }

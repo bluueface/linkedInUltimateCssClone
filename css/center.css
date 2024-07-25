@@ -2,10 +2,14 @@
   box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
   border-radius: 8px;
   padding: 0px 0px 10px 10x;
-  height: 110px;
+  height: fit-content;
   margin: 0px 10px 0px 10px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
+
 .post {
   box-shadow: rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
   border-radius: 8px;
@@ -14,11 +18,13 @@
   height: 60vh;
   margin: 0px 10px 0px 10px;
   background-color: white;
+
   .postHeaderRow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   .postContent {
     display: flex;
     flex-direction: column;
@@ -31,11 +37,13 @@
       padding: 5px;
       margin: 5px;
     }
-    .postImage {
-      border-radius: 20px;
-      height: 40vh;
 
-      object-fit: cover;
+    .postImage {
+      border-radius: 0px;
+      height: 30vh;
+      width: 100%;
+
+      object-fit:fill ;
     }
   }
 
@@ -43,6 +51,7 @@
     border-radius: 50%;
     height: 50px;
   }
+
   .postDetail {
     display: flex;
     padding: 12px;
@@ -53,17 +62,20 @@
       flex-direction: column;
       align-items: start;
       flex-wrap: wrap;
+
       label {
         padding: 0px;
         font-size: 15px;
         font-weight: bold;
       }
+
       .username {
         font-size: 10px;
         font-weight: bold;
       }
     }
   }
+
   .likeAndComment {
     padding: 10px;
     display: flex;
@@ -77,16 +89,19 @@
   justify-content: space-between;
   padding: 12px;
   gap: 12px;
+
   img {
     border-radius: 50%;
     height: 50px;
   }
+
   input {
     background-color: #f4f2ee;
     border-radius: 35px;
     width: 90%;
     border: gray solid 1px;
   }
+
   ::placeholder {
     color: black;
     font-size: 16px;
@@ -101,6 +116,7 @@
   justify-content: space-between;
   padding: 0px 16px;
   gap: 12px;
+
   label {
     color: black;
     font-size: 16px;

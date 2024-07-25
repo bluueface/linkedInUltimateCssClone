@@ -3,14 +3,18 @@
   height: 60vh;
   margin: 0px 10px 0px 10px;
   background-color: white;
+  font-size: 13px;
 }
+
 .newsAndGames {
   display: flex;
   flex-direction: column;
 }
+
 .games {
   padding: 8px;
 }
+
 .linkedinNews {
   display: flex;
   flex-direction: row;
@@ -18,12 +22,14 @@
   padding: 10px 5px 10px 10px;
   margin-bottom: 8px;
 }
+
 .newsList {
   padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
+
 .topStories {
   padding: 5px;
   color: gray;
